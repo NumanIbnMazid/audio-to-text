@@ -23,6 +23,5 @@ router = routers.DefaultRouter()
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('api-auth/', include('rest_framework.urls')),
     path('api/audio-to-text/', AudioToTextViewset.as_view({'post': 'audio_to_text'}, name="audio_to_text_api")),
 ]
