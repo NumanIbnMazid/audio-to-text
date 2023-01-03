@@ -8,6 +8,10 @@
 
 $ `pip install -r requirements.txt`
 
+## Run Migration
+
+$ `python manage.py migrate`
+
 ## Run Django Server
 
 $ `python manage.py runserver`
